@@ -8,28 +8,29 @@ https://github.com/wounderfvl/webpro-1727
 
 After following the module's instruction of today's class, we have successfully followed the instruction as below:
 
-1. Component Implementation
-   The backend developer successfully created and integrated the "TambahProduk.tsx" component into their React application. This component provides a user interface for adding new products to the system. The implementation follows React's component-based architecture, allowing for modular code organization and reusability while maintaining a clean separation of concerns within the application structure.
+1. PUT and DELETE endpoints
+   The Backend developer successfully implemented PUT and DELETE endpoints in the backend service. These endpoints properly handle data modification and removal requests, completing the full set of CRUD operations on the server side according to RESTful API principles.
 
-<img src="2.jpg">
+2. Frontend Integration
+   The frontend application now features functional edit and delete capabilities with proper UI elements. These controls correctly trigger the appropriate HTTP requests to the backend endpoints, demonstrating successful event handling and API integration that allows users to modify and remove products through the interface.
 
-Successfully adds new product
-<img src="3.jpg">
-<img src="1.jpg">
+3. Error-Free Operatio
+   The application demonstrates complete CRUD functionality without errors or exceptions. This indicates proper validation, error handling, and communication between frontend and backend components throughout all data management operations.
 
-2. Form Validation Implementation
-   The developer implemented simple yet effective form validation within the product addition workflow. This validation ensures data integrity by preventing submissions with empty fields, which could otherwise lead to incomplete or corrupted database entries. The system properly displays error messages to guide users when input requirements are not met, enhancing the overall user experience and application reliability.
+4. Data Synchronization
+   The product listing view accurately reflects all database changes after create, update, and delete operations. This confirms that the application maintains proper state synchronization with the database and implements effective UI updates after data modifications, providing users with accurate visual feedback.
 
-Error when adding product without name
-<img src="4.jpg">
+Read
+<img src="1.png">
 
-Error when adding product without price
-<img src="6.jpg">
+Edit
+<img src="2.png">
+<img src="3.png">
 
-Error when adding product without name and price
-<img src="5.jpg">
+Delete
+<img src="4.png">
+<img src="5.png">
 
-3. Database Integration
-   The developer established successful database connectivity, enabling the application to persistently store newly added product data. The submitted form data was correctly processed, transmitted to the backend, and stored in the database. This confirms the end-to-end functionality of the application's data flow, from user input through the React frontend to storage in the backend database system.
-
-<img src="7.jpg">
+Create
+<img src="0.png">
+<img src="01.png">
