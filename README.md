@@ -22,11 +22,14 @@ cd webpro-1727
 
 #### 2. Install Dependencies
 Install all required dependencies for both backend and frontend:
+
+backend
 ```bash
+cd backend
 npm install
 ```
 
-Navigate to the frontend folder and install its dependencies:
+frontend
 ```bash
 cd frontend/eccomerce-frontend
 npm install
